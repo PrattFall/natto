@@ -25,7 +25,7 @@ nto.addSet(setName, setObj);
 var newSet = {
 	'a' : 'Aardvark',
 	'b' : 'Basketball'
-}
+};
 
 nto.addSet('test', newSet);
 ```

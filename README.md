@@ -20,13 +20,29 @@ nto.display(container, tagType, className);
 ```
 nto.addSet(setName, setObj);
 
-// Set objects are just key-value pairs with the character to check for as the key and the word to replace it with as the value
+// Set objects are just key-value pairs with the character to check for as the key
+// and the word to replace it with as the value
 var newSet = {
 	'a' : 'Aardvark',
 	'b' : 'Basketball'
 }
 
 nto.addSet('test', newSet);
+```
+
+## Curfo.js
+
+Curfo is just a small class I created to keep track of mouse-overs in a linear manner. This can make it a lot easier to keep track of where you are when reading off strings of words such as the ones created by Natto.
+
+### Usage:
+
+```
+var cf = new Curfo(classNameSurroundingEachWord);
+cf.onFinished(functionName);
+
+// After updating the data run this to parse all of the objects and give them
+// the proper event listeners
+cf.init();
 ```
 
 ## Things I might do sometime soon:

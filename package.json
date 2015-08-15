@@ -1,0 +1,19 @@
+{
+  "name": "Natto.js",
+  "version": "0.0.1",
+  "description": "A small script for handling phonetic alphabets.",
+  "author": "Brian Pratt <brianpratt@fastmail.fm>",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "del": "*",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-concat": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  },
+  "licence": "MIT"
+}

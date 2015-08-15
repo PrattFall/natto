@@ -1,0 +1,89 @@
+html,
+body {
+  padding: .5em;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.natto-word {
+  padding: .8em .4em;
+  color: #555;
+  display: inline-block;
+  font-size: 1.25em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.natto-word:hover {
+  box-shadow: 2px 2px 5px #ccc;
+  background-color: rgb(170, 230, 170);
+}
+
+#testnato {
+  border: 1px solid #ccc;
+  padding: .5em;
+  padding-right: 2em;
+  width: 100%;
+  color: #555;
+  background: transparent;
+  font-size: 2em;
+}
+
+.cf-moused {
+  background-color: rgb(190, 255, 190);
+}
+
+#testnatocontainer {
+  margin-top: .5em;
+}
+
+.input-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.finished {
+  position: absolute;
+  z-index: 300;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 67px;
+}
+
+.finished img {
+  height: 100%;
+  width: auto;
+  opacity: 0;
+  padding: 1em;
+  transition: opacity .3s;
+}
+
+.finished img.is-finished {
+  opacity: 1;
+}
+
+.turn-on-javascript-dammit {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 9000;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+}
